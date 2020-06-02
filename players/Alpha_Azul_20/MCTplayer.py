@@ -160,7 +160,7 @@ class MCTS(object):
             for p in state.players:
                 if not state.TilesRemaining():
                     break
-                player =players.naive_player.myPlayer(p.id)
+                player =players.random_player.myPlayer(p.id)
                 state.ExecuteMove(p.id, player.SelectMove(p.GetAvailableMoves(state),state))
         state.ExecuteEndOfRound()
         reward = {}
