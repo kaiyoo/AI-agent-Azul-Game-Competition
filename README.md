@@ -13,7 +13,7 @@ Some information about the game:
 
 This project was done as the final project of subject AI planning for autonomy. 
 
-Our team implemented 3 algorithms: Monte Carlo Search Tree, Deep Q-learning, Minimax and chose Minimax for final agent. 
+Our team implemented 3 algorithms: Monte Carlo Tree Search, Deep Q-learning, Minimax and chose Minimax for final agent. 
 
 Ranked 12th out of 68 teams (winning rate).
 
