@@ -37,9 +37,9 @@ For our final agent, **Minimax** player was chosen.
 > 
 > At the end of the game, our Minimax player beated naive player **by double (16-32)**, which is very powerful.
 > 
-> Look at the design of the agent. Since the state space for action is too large, "Action filtering" as well as alpha-beta pruning was used to filter unnecessary (totally meaningless) actions while making the agent being able to explore deeper with smaller action state space.
+> Look at the **Design of the Agent**. Since the state space for action is too large, **"Action filtering"** as well as alpha-beta pruning was used to filter unnecessary (totally meaningless) actions while making the agent **being able to explore deeper with smaller action state space**.
 > 
-> In addition, many other strateges were considered in evaluation metrics to maximize the gap in points earned between enemy and my player (see my code below).
+> In addition, many other strateges were considered in **evaluation metrics to maximize the gap in points** earned between enemy and my player (see my code below).
 > 
 > Implementation of Minimax player is in [/Alpha_Azul_20/minimax_player.py](players/Alpha_Azul_20/minimax_player.py)
 > 
