@@ -9,14 +9,6 @@ Some information about the game:
 - https://boardgamegeek.com/boardgame/230802/azul
 - https://www.planbgames.com/en/news/azul-c16.html -->
 
-# Overview
-
-This project was done as the final project of subject AI planning for autonomy. 
-
-Our team implemented 3 algorithms: Monte Carlo Tree Search, Deep Q-learning, Minimax and chose Minimax for final agent. 
-
-Ranked 12th out of 68 teams (winning rate).
-
 # AZUL GUI
 
 This repository contains a framework to support developing autonomous agents for the boardgame AZUL, published by Plan B Games. The game frame is forked from [Michelle Blom](https://github.com/michelleblom)'s repository, and GUI is developed by [Guang Hu](https://github.com/guanghuhappysf128) and  [Ruihan Zhang](https://github.com/zhangrh93). The code is in Python 3.
