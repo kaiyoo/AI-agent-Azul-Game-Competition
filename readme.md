@@ -13,14 +13,14 @@ Our team implemented 3 algorithms: 1) Monte Carlo Tree Search, 2) Deep Q-learnin
 
 Among above algorithms, I implemented both DQN and Minimax.
 
-For our final agent, Minimax player was chosen. 
+For our final agent, **Minimax** player was chosen. 
 
 ## [2] DQN (Deep Q-learning)
 > **Naive player** (player0-top)  **vs**  **DQN player** (player1-bottom) : DQN won! (23-24)
 > 
 > In the demo, player0 (top) is naive player (baseline - simple strategy) and player1 (bottom) is our DQN player.
 > 
-> At the end of the game, DQN player beated naive player only by 1 point (23-24), which is not powerful...
+> At the end of the game, DQN player beated naive player only by 1 point (23-24), which is not powerful... It was possibly because the state space for action is too large. Maybe it could end up with the better result if forcing a bad reward for unnecessary (totally meaningless) actions for some initial replay periods like in "unnecessary action filtering" in Minimax (Design of Agent).
 > 
 > Implementation of model training for DQN player is in [dqn_train_model.py](dqn_train_model.py) and implementation of DQN player is in [/Alpha_Azul_20/dqn_player.py](players/Alpha_Azul_20/dqn_player.py)
 > 
@@ -37,9 +37,11 @@ For our final agent, Minimax player was chosen.
 > 
 > At the end of the game, our Minimax player beated naive player **by double (16-32)**, which is very powerful.
 > 
-> Look at the design of the agent. Besides this, many other strateges were considered (see my code below).
+> Look at the design of the agent. Since the state space for action is too large, "Action filtering" as well as alpha-beta pruning was used to filter unnecessary (totally meaningless) actions while making the agent being able to explore deeper with smaller action state space.
 > 
-> Implementation of Minimax is in [/Alpha_Azul_20/minimax_player.py](players/Alpha_Azul_20/minimax_player.py)
+> In addition, many other strateges were considered in evaluation metrics to maximize the gap in points earned between enemy and my player (see my code below).
+> 
+> Implementation of Minimax player is in [/Alpha_Azul_20/minimax_player.py](players/Alpha_Azul_20/minimax_player.py)
 > 
 
 ![Minimax Demo](img/minimax_demo.gif)
