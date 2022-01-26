@@ -9,7 +9,7 @@ This project was done as the final project of a subject (COMP90054 - AI planning
 
 Ranked 12th out of 68 teams. 
 
-Our team implemented 3 algorithms: 1) Monte Carlo Tree Search, 2) Deep Q-learning, 3) Minimax.
+Our team implemented 3 algorithms: 1) Monte Carlo Tree Search, **2) Deep Q-learning, 3) Minimax.**
 
 Among above algorithms, I implemented both DQN and Minimax.
 
