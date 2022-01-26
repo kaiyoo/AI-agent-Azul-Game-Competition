@@ -16,7 +16,7 @@ Among above algorithms, I implemented both DQN and Minimax.
 For our final agent, Minimax player was chosen. 
 
 ## [2] DQN (Deep Q-learning)
-> Naive player (player0-top)  vs  DQN player (player1-bottom) : DQN won! (23-24)
+> **Naive player** (player0-top)  **vs**  **DQN player** (player1-bottom) : DQN won! (23-24)
 > 
 > In the demo, player0 (top) is naive player (baseline - simple strategy) and player1 (bottom) is our DQN player.
 > 
@@ -31,7 +31,7 @@ For our final agent, Minimax player was chosen.
 
 
 ## [3] Minimax
-> Naive player (player0-top)  vs  Minimax player (player1-bottom) : Minimax won! **(16-32)**
+> **Naive player** (player0-top)  **vs**  **Minimax player** (player1-bottom) : Minimax won! **(16-32)**
 > 
 > In the demo, player0 (top) is naive player (baseline - simple strategy) and player1 (bottom) is Minimax player.
 > 
