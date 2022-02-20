@@ -1,7 +1,7 @@
 # AZUL game AI-agent competition
 COMP90054 (AI planning for Autonomy) In-class competition: Creating AI agents for Azul game
 
-Video demo is available [here](https://youtu.be/vctpCTW8iWU) and project information is in [project-info.md](https://github.com/kaiyoo/AI-azul/blob/master/project-info.md)
+Project information is in [project-info.md](https://github.com/kaiyoo/AI-azul/blob/master/project-info.md)
 
 
 ## [1] Overview
