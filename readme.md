@@ -1,8 +1,5 @@
 # AZUL game AI-agent competition
-COMP90054 (AI planning for Autonomy) In-class competition: Creating AI agents for Azul game
-
-Project information is in [project-info.md](https://github.com/kaiyoo/AI-azul/blob/master/project-info.md)
-
+COMP90054 (AI planning for Autonomy) In-class competition: Creating AI agents for Azul game.
 
 ## [1] Overview
 This project was done as the final project of a subject (COMP90054 - AI planning for autonomy). 
